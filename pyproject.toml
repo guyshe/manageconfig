@@ -21,4 +21,4 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = "TODO"
+"Homepage" = "https://github.com/guyshe/yaml-config-manager"
