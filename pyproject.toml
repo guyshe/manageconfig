@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=64.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+dependencies = [
+  'PyYAML ~= 5.4'
+]
+name = "yaml_config_manager"
+version = "1.0.0"
+authors = [
+  {name="Guyshe"},
+]
+description = "Small package for working with config files"
+readme = "README.md"
+requires-python = ">=3"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "TODO"
