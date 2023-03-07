@@ -3,10 +3,11 @@ requires = ["setuptools>=64.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
+name = "yaml_config_manager"
 dependencies = [
   'PyYAML ~= 5.4'
 ]
-name = "yaml_config_manager"
+
 version = "1.0.0"
 authors = [
   {name="Guyshe"},
