@@ -1,5 +1,10 @@
 # Yaml config manager
 
+### Installation:
+```
+pip install yaml-config-manager
+```
+
 loads yaml config file and expose it as python object.
 This library is super small, basic, and easy to use
 
