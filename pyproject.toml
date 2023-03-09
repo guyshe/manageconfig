@@ -3,12 +3,12 @@ requires = ["setuptools>=64.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "yaml_config_manager"
+name = "manageconfig"
 dependencies = [
   'PyYAML ~= 5.4'
 ]
 
-version = "1.0.0"
+version = "1.0.1"
 authors = [
   {name="Guyshe"},
 ]
@@ -22,4 +22,4 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/guyshe/yaml-config-manager"
+"Homepage" = "https://github.com/guyshe/manageconfig"

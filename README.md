@@ -1,28 +1,28 @@
-# Yaml config manager
+# config manager
 
 ### Installation:
 ```
-pip install yaml-config-manager
+pip install manageconfig
 ```
 
-loads yaml config file and expose it as python object.
-This library is super small, basic, and easy to use
+This library manages config files and exposes them as Python objects. It is super small, basic, and easy to use.
+
+**Note:** This package currently supports only YAML configurations, but we will add support for other formats soon (and we are open to suggestions).
 
 ## Example:
 
-Suppose we want to load the `config.py` file attached below, 
-we will do it as follows:
+Suppose we want to load the `config.py` file attached below. We can do it as follows:
 
 
 ```python
-from yaml_config_manager import YamlConfig
+from manageconfig import Config
 
-conf = YamlConfig.load_from_yml('config.yml')
+conf = Config.load_from_yml('config.yml')
 
 print(conf.string2)
 print(conf.string1)
 
-# will print 'localhost'
+# This will print 'localhost'
 print(conf.mysqldatabase.hostname)
 
 # i == 3013
