@@ -7,7 +7,7 @@ pip install manageconfig
 
 This library manages config files and exposes them as Python objects. It is super small, basic, and easy to use.
 
-**Note:** This package currently supports only YAML configurations, but we will add support for other formats soon (and we are open to suggestions).
+**Note:** This package currently supports only YAML and JSON configurations, but we will soon add support for other formats (and we are open to suggestions).
 
 ## Example:
 
