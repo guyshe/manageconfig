@@ -56,7 +56,8 @@ string1: |
   "line3"
   line4
 
-# Multiline strings with folded block syntax - new lines are not preserved, leading and trailing spaces are ignore
+# Multiline strings with folded block syntax - new lines are not preserved, 
+# leading and trailing spaces are ignore
 string2: >
   Line1
   line2
