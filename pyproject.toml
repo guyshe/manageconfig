@@ -5,10 +5,10 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "manageconfig"
 dependencies = [
-  'PyYAML ~= 5.4'
+  'PyYAML ~= 6.0'
 ]
 
-version = "1.1.0"
+version = "1.1.1"
 authors = [
   {name="Guyshe"},
 ]
