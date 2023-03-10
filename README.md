@@ -31,7 +31,6 @@ i = conf.mysqldatabase.port + 1
 ```
 
 
-
 ```yml
 
 # comment syntax
@@ -79,4 +78,4 @@ mysqldatabase:
   password: root
 ```
 
-
+**JSON support:** In order to use json format - simply use `Config.load_from_json('config.json')`
