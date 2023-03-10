@@ -1,1 +1,1 @@
-from .config import Config
+from manageconfig.config import Config
