@@ -1,0 +1,16 @@
+{
+  "name": "My Web App",
+  "version": "1.0.0",
+  "description": "A web application for managing tasks",
+  "author": "John Doe",
+  "dependencies": ["express", "body-parser", "mongodb"],
+  "devDependencies": ["mocha", "chai", "sinon"],
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha test/**/*.js"
+  },
+  "main": "app.js",
+  "private": false,
+  "license": "MIT",
+  "numberKey": 123
+}
