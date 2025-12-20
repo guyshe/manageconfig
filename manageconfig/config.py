@@ -13,7 +13,7 @@ class Config:
     @staticmethod
     def load_from_yml(path: Path):
         with open(path) as f:
-            return Config(yaml.load(f, Loader=yaml.FullLoader))
+            return Config(yaml.safe_load(f))
 
     @staticmethod
     def load_from_json(path: Path):
